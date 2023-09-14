@@ -1,0 +1,35 @@
+<html>
+    <style>
+        body {
+            text-align: center;
+            font-size: 40px;
+            background-color: lightblue;
+            width: 100%;
+            position: relative;
+        }
+        input[type="submit"] {
+            color: black;
+            height: 35px;
+            font-size: 30px;
+        }
+        input[type="text"] {
+            height: 35px;
+        }
+        form {
+            font-size: 40px;
+        }
+        p {
+            font-size: 40px;
+        }
+    </style>
+    <body>
+        <p>Please access the link bellow to authenticate the application:</p>
+        <a href="https://freesound.org/apiv2/oauth2/authorize/?client_id=7aZ18q8zEbWCmObY7x89&response_type=code">URL</a>
+        <form method="GET">
+            Insert the access token here:<input type="text" name="auth_form">
+            <input type="submit" value="Submit code"/>
+        </form>
+        <p>Got the code?</p>
+        <a href="https://palomaacl.pythonanywhere.com/corncake">Return to CornCake</a>
+    </body>
+</html>

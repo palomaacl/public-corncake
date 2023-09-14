@@ -1,0 +1,11 @@
+# all audio files
+*.mp3
+*.wav
+
+# testing files
+sayHello.py
+test.py
+freesound
+
+# OS files
+__pycache__
